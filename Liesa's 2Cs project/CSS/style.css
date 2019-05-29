@@ -1,0 +1,232 @@
+/* Default CSS */
+  
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+  
+  body{
+    background-color: white;
+    font-size:x-large;
+    font-family:"Harrington";
+    color:#B00E00;
+    }
+    
+    
+  a  { color:purple; }
+  a:visited { color:#800080; }
+  a:hover { color:#40F3FF; }
+  a:active { color:#FF0000; }
+   
+  
+ /*NAVIGATION*/
+ 
+      
+  header{
+   padding-bottom:10px;
+   width:100%;
+   height:70px;
+   background-color:white;
+   position:fixed;
+   top:0;
+   }
+  
+ .logo{
+   float: left;
+   margin:0 0 5px 30px;
+   
+   }
+  
+  
+  nav {
+   float: right;
+   margin:20px 0 0 0px;
+   
+     
+ 	}
+    
+  nav ul img {
+    float:left;
+    }
+  
+  nav ul li {
+    display:inline;
+    font-size: large;
+	padding: 20px 20px;
+	opacity: 1;
+    text-decoration: blink;
+
+	}  
+    
+  /*END OF NAVIGATION*/  
+
+
+  /*PAGES GENERAL*/
+  section{
+   margin: 0, auto;
+   padding-top:130px;
+   text-align:center; 
+   height: 100vh;
+   
+   }
+  
+   
+   
+  .titles{
+    margin:0, auto;
+    background-size:contain;
+    background-repeat:repeat;
+    width:100%;
+    overflow:auto;
+    }
+    
+  img{
+   margin-top:20px;
+  }
+ 
+ 
+  .colour1{
+   background-image: url('../Images/sutle.png');  
+   }
+  
+  
+  h1 {
+   color:purple;
+   font-size:64px;
+   margin-bottom: 20px;
+   }
+  
+  h2{
+   font-size:48px;
+   margin-bottom: 20px;
+   color:purple;
+   }
+  
+  h3{
+   font-size:36px;
+   }
+   
+  .allposts{
+   padding:50px;
+   
+   }
+   
+  .post{
+    width:380px;
+    float: left;
+    padding:10px;
+    margin:0 auto;
+    
+    
+    }
+    
+    
+  .post h3{
+    text-align:center;
+    
+    }
+   
+  .post img{
+   width:290px;
+   height:270px;
+  
+   }
+    
+  .cta img{
+   width:100px;
+   height: 100px;
+   margin: 100px;
+  
+   }
+   
+   
+ /*END OF PAGES GENERAL*/
+ 
+ /*LANDING PAGE*/
+ 
+  .landing{
+    margin-top:70px;
+    background-image: url('../Images/image-land.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100vh;
+    }
+  
+  .outer{
+   width: 100%;
+   overflow-style:auto;
+   }
+   
+  .words{
+   padding-top:85px;
+   float: left;
+   width: 600px;
+   margin:120px 0 0 100px;
+   text-align:center;
+   }
+  
+  
+ 
+ 
+ /*END OF LANDING PAGE*/
+  
+   
+ /*ABOUT*/
+ 
+ 
+ /*END OF ABOUT*/
+ 
+ /*STORIES*/
+ 
+ 
+   /*TABLE STUFF*/ 
+   
+    table{
+      width:90%;
+      margin: 0,auto;
+      margin-top:30px;
+      height: 500px; 
+      text-align:center; 
+      }
+   
+    table a  { 
+      color:#B00E00; 
+      }
+  
+    table a:visited { 
+      color:#800080; 
+      }
+  
+    table a:hover { 
+      color:#B00E00; 
+      }
+  
+    table a:active { 
+      color:#FF0000; 
+      }
+    
+   /* END OF TABLE STUFF*/
+ 
+ 
+ /*END OF STORIES*/
+ 
+ 
+ 
+ /*GALLERY*/
+ 
+ 
+ 
+ /*END OF GALLERY*/ 
+ 
+ 
+ 
+   
+   
+ 
+   
+ 
